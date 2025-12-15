@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS</title>
+    <!---internal CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+     <style>
+  p{
+    color:red;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  body{
+    /*background-color: lightyellow;*/
+    background: linear-gradient(white,pink,mediumpurple);
+  }
+  h1, h2{
+    color: blue;
+    text-align: center;
+  }
+  .tulis1{
+    color: mediumpurple;
+    font-size: 20px;
+    font-family: Arial;
+    font-style: italic;
+    
+  }
+  #tulis2{
+    color: green;
+    font-size: 10px;
+    font-family: verdana;
+    font-weight: bold;
+  }
+  a{text-decoration: none;}
+    a:link { color: blue; }
+    a:visited { color: purple; }
+    a:hover { color: red; }
+    a:active { color: green; }
+    
+    p::first-line{
+    font-weight: bold;
+    color: orange;
+  }
+     p::first-letter{
+     font-size: 2em;
+     }
+     </style>
+</head>
+
+<body>
+  <!--inline CSS-->
+  <p style="Color: hotpink; font-size: 20px; font-family: Times New Roman;">Belajar CSS Inline di STTNF</p>
+  <P>Lokasi di Gedung B1</P>
+  <p>STTNF Semester 1</p>
+  <br>
+  <h1>Ini heading 1</h1>
+  <h2>ini heading 2</h2>
+  <h3 class="tulis1">ini heading 3</h3>
+  <h4 id="tulis2">ini heading 4</h4>
+  <a href="https://nurulfikri.ac.id">Web STTNF</a>
+  
+</body>
+
+</html>
